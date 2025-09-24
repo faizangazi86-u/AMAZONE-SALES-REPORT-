@@ -49,4 +49,3 @@ Order details (dates, quantities, shipping modes)
 Product information (categories, prices, profit margins)
 Customer demographics and regional performance
 Return rates and payment methods
-
