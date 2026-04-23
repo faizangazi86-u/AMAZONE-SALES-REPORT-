@@ -1,51 +1,36 @@
-# AMAZONE-SALES-REPORT-
+# Amazon Sales Analytics — Power BI Dashboard
+Interactive sales dashboard for Amazon retail performance across regions, categories, and customer segments.
 
-🛒 Amazon Sales Analytics Dashboard
+## Overview
+Designed for sales managers and business analysts to monitor profit trends, customer behavior, and category performance. Built on an Amazon retail dataset covering orders, products, customers, and regional breakdowns.
 
-A dynamic Power BI dashboard analyzing e-commerce sales performance across regions, products, and customer segments for data-driven business insights.
+## Key metrics
+- Sum of profit: 175.26K (across all 4 regions)
+- Regions: Central, East, South, West
+- Product categories: Technology, Office Supplies, Furniture
+- Payment modes tracked: COD, Online, Cards
 
-📊 Overview
+## Tech stack
+- Power BI Desktop — visualization platform
+- Power Query — data transformation and cleaning
+- DAX — calculated measures and KPIs
+- Data Modeling — relationships across orders, customers, regions, and products
 
-Interactive sales analytics dashboard designed to help business analysts, sales managers, and decision makers understand Amazon marketplace performance through comprehensive visualizations and KPI tracking.
+## Dashboard visuals
+- Profit by category & city (slope chart)
+- Quantity by category (donut — Technology 61%)
+- Customer distribution by city (donut)
+- Orders by Order ID (dual-axis bar)
+- Region share by product (stacked bar)
+- Customers by payment mode (bar)
+- Returns tracker (increase/decrease/total)
+- Geographic profit map (US cities)
 
-🔧 Tech Stack
+## Business use cases
+- Identify top-performing categories and cities by profit
+- Monitor return trends and flag declining margins
+- Understand payment preferences across customer base
+- Compare regional performance for resource allocation
 
-Power BI Desktop - Main visualization platform
-Power Query - Data transformation and cleaning
-DAX - Calculated measures and dynamic visuals
-Data Modeling - Relationships between orders, products, customers, and regions
-
-📈 Key Features
-
-Sales Performance:
-
-Total sales revenue: 175.26K with profit breakdown
-Regional analysis (Central, East, South, West) with interactive maps
-Product category trends (Technology, Office Supplies, Furniture)
-
-Customer Analytics:
-
-Customer segmentation and payment mode analysis
-Returns tracking with increase/decrease indicators
-Seasonal trends and buying patterns
-
-Interactive Elements:
-
-Dynamic cross-chart filtering
-Geographic drill-down capabilities
-Time-based analysis with date selectors
-
-🎯 Business Impact
-
-Revenue Optimization: Identify top-performing products and regions
-Customer Insights: Understand buying patterns and preferences
-Market Analysis: Spot growth opportunities and underperforming areas
-Operational Efficiency: Optimize shipping and fulfillment strategies
-
-📋 Data Source
-Amazon sales dataset including:
-
-Order details (dates, quantities, shipping modes)
-Product information (categories, prices, profit margins)
-Customer demographics and regional performance
-Return rates and payment methods
+## Data source
+Amazon retail sales dataset including order details, product info, customer demographics, regional performance, return rates, and payment methods.
